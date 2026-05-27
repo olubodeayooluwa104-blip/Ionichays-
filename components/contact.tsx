@@ -69,8 +69,23 @@ export function Contact() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
-    // Handle form submission
-    console.log("Form submitted:", formData)
+    
+    // Build WhatsApp message
+    const message = `Hello Oatifymedia!
+
+*New Inquiry*
+
+*Name:* ${formData.fullName || "Not provided"}
+*Phone:* ${formData.phone || "Not provided"}
+*Email:* ${formData.email || "Not provided"}
+*Service Needed:* ${formData.service || "Not specified"}
+
+*Message:*
+${formData.message || "No additional message"}`;
+
+    // Encode and open WhatsApp
+    const encodedMessage = encodeURIComponent(message)
+    window.open(`https://wa.me/2347017806343?text=${encodedMessage}`, "_blank")
   }
 
   return (
