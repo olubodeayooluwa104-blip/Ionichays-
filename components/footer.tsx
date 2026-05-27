@@ -3,7 +3,7 @@ import Link from "next/link"
 export function Footer() {
   return (
     <footer className="bg-[#080808] border-t border-border py-10 px-[5%] flex flex-wrap items-center justify-between gap-4">
-      <Link href="/" className="font-serif font-extrabold text-lg text-foreground">
+      <Link href="/" className="font-sans font-bold text-base text-foreground">
         Oatify<span className="text-primary">media</span>
       </Link>
 

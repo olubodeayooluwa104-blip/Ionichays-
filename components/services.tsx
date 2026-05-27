@@ -70,12 +70,12 @@ export function Services() {
         <div className="text-xs font-semibold tracking-[0.2em] uppercase text-primary mb-4">
           What We Offer
         </div>
-        <h2 className="font-serif text-4xl md:text-5xl font-extrabold tracking-tight mb-4 text-balance">
+        <h2 className="font-sans text-2xl md:text-3xl font-bold tracking-tight mb-4 text-balance">
           All the Compliance
           <br />
           Services You Need
         </h2>
-        <p className="text-muted-foreground text-base max-w-lg font-light">
+        <p className="text-muted-foreground text-sm max-w-lg font-light">
           We take the complexity out of government registration processes so you can focus on your business.
         </p>
       </div>
@@ -87,7 +87,7 @@ export function Services() {
             className="bg-card p-9 transition-colors hover:bg-card/80 group cursor-default"
           >
             <service.icon className="w-8 h-8 text-gold-dim mb-5 transition-colors group-hover:text-primary" />
-            <h3 className="font-serif text-lg font-bold tracking-tight mb-3">
+            <h3 className="font-sans text-base font-semibold tracking-tight mb-3">
               {service.title}
             </h3>
             <p className="text-sm text-muted-foreground leading-relaxed font-light mb-5">

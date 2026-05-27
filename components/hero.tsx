@@ -36,7 +36,7 @@ export function Hero() {
         </div>
 
         {/* Headline */}
-        <h1 className="animate-fade-up-delay-1 font-serif text-5xl md:text-6xl lg:text-7xl font-extrabold tracking-tight mb-6 text-balance">
+        <h1 className="animate-fade-up-delay-1 font-sans text-3xl md:text-4xl lg:text-5xl font-bold tracking-tight mb-6 text-balance">
           From Registration
           <br />
           to <span className="text-primary">Compliance</span> —
@@ -45,7 +45,7 @@ export function Hero() {
         </h1>
 
         {/* Subheadline */}
-        <p className="animate-fade-up-delay-2 text-lg text-muted-foreground max-w-xl mb-10 font-light leading-relaxed">
+        <p className="animate-fade-up-delay-2 text-base text-muted-foreground max-w-xl mb-10 font-light leading-relaxed">
           CAC registration, SCUML, Export License, Trademark, Affidavit, Annual Returns — fast, accurate, and stress-free.
         </p>
 
@@ -53,13 +53,13 @@ export function Hero() {
         <div className="animate-fade-up-delay-3 flex flex-wrap gap-4">
           <Link
             href="#contact"
-            className="bg-primary text-primary-foreground font-serif font-bold text-base px-8 py-4 hover:bg-accent hover:-translate-y-0.5 hover:shadow-[0_8px_30px_rgba(201,168,76,0.25)] transition-all"
+            className="bg-primary text-primary-foreground font-sans font-semibold text-sm px-6 py-3 hover:bg-accent hover:-translate-y-0.5 hover:shadow-[0_8px_30px_rgba(201,168,76,0.25)] transition-all"
           >
             Start Your Registration
           </Link>
           <Link
             href="#services"
-            className="bg-transparent text-foreground font-serif font-semibold text-base px-8 py-4 border border-foreground/20 hover:border-primary hover:text-primary transition-all"
+            className="bg-transparent text-foreground font-sans font-medium text-sm px-6 py-3 border border-foreground/20 hover:border-primary hover:text-primary transition-all"
           >
             View Services
           </Link>
@@ -68,15 +68,15 @@ export function Hero() {
         {/* Stats */}
         <div className="animate-fade-up-delay-4 flex flex-wrap gap-6 md:gap-12 mt-16 pt-10 border-t border-border">
           <div>
-            <div className="font-serif text-3xl font-extrabold text-primary">500+</div>
+            <div className="font-sans text-2xl font-bold text-primary">500+</div>
             <div className="text-xs text-muted-foreground uppercase tracking-widest mt-1">Businesses Registered</div>
           </div>
           <div>
-            <div className="font-serif text-3xl font-extrabold text-primary">48hrs</div>
+            <div className="font-sans text-2xl font-bold text-primary">48hrs</div>
             <div className="text-xs text-muted-foreground uppercase tracking-widest mt-1">Avg. Turnaround</div>
           </div>
           <div>
-            <div className="font-serif text-3xl font-extrabold text-primary">100%</div>
+            <div className="font-sans text-2xl font-bold text-primary">100%</div>
             <div className="text-xs text-muted-foreground uppercase tracking-widest mt-1">CAC Compliant</div>
           </div>
         </div>

@@ -55,7 +55,7 @@ export function WhyUs() {
           <div className="reveal opacity-0 translate-y-8 transition-all duration-700 text-xs font-semibold tracking-[0.2em] uppercase text-primary mb-4">
             Why Oatifymedia
           </div>
-          <h2 className="reveal opacity-0 translate-y-8 transition-all duration-700 font-serif text-4xl md:text-5xl font-extrabold tracking-tight mb-8 text-balance">
+          <h2 className="reveal opacity-0 translate-y-8 transition-all duration-700 font-sans text-2xl md:text-3xl font-bold tracking-tight mb-8 text-balance">
             We Make Compliance
             <br />
             Feel Easy
@@ -71,7 +71,7 @@ export function WhyUs() {
                   <feature.icon className="w-5 h-5 text-primary" />
                 </div>
                 <div>
-                  <h4 className="font-serif text-base font-bold mb-1">{feature.title}</h4>
+                  <h4 className="font-sans text-sm font-semibold mb-1">{feature.title}</h4>
                   <p className="text-sm text-muted-foreground font-light">{feature.description}</p>
                 </div>
               </li>
@@ -86,7 +86,7 @@ export function WhyUs() {
               background: "radial-gradient(ellipse 70% 70% at 50% 50%, rgba(201,168,76,0.06) 0%, transparent 70%)",
             }}
           />
-          <div className="font-serif text-7xl md:text-8xl font-extrabold text-primary relative">
+          <div className="font-sans text-5xl md:text-6xl font-bold text-primary relative">
             500+
           </div>
           <div className="w-10 h-px bg-border relative" />
@@ -94,7 +94,7 @@ export function WhyUs() {
             Businesses successfully registered and compliant across Nigeria
           </div>
           <div className="w-10 h-px bg-border relative" />
-          <div className="font-serif text-4xl md:text-5xl font-extrabold text-primary/50 relative">
+          <div className="font-sans text-3xl md:text-4xl font-bold text-primary/50 relative">
             6 Services
           </div>
           <div className="text-sm text-muted-foreground text-center max-w-52 leading-relaxed relative">
