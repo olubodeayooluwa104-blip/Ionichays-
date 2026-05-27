@@ -83,9 +83,10 @@ export function Contact() {
 *Message:*
 ${formData.message || "No additional message"}`;
 
-    // Encode and open WhatsApp
+    // Encode and redirect to WhatsApp
     const encodedMessage = encodeURIComponent(message)
-    window.open(`https://wa.me/2347017806343?text=${encodedMessage}`, "_blank")
+    const whatsappUrl = `https://wa.me/2347017806343?text=${encodedMessage}`
+    window.location.href = whatsappUrl
   }
 
   return (
