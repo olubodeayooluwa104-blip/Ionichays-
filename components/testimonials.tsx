@@ -51,7 +51,7 @@ export function Testimonials() {
         <div className="text-xs font-semibold tracking-[0.2em] uppercase text-primary mb-4">
           Client Stories
         </div>
-        <h2 className="font-serif text-4xl md:text-5xl font-extrabold tracking-tight">
+        <h2 className="font-sans text-2xl md:text-3xl font-bold tracking-tight">
           What Our Clients Say
         </h2>
       </div>
@@ -67,7 +67,7 @@ export function Testimonials() {
               {`"${testimonial.text}"`}
             </p>
             <div className="flex items-center gap-3">
-              <div className="w-10 h-10 bg-primary/15 border border-border flex items-center justify-center font-serif font-extrabold text-sm text-primary">
+              <div className="w-10 h-10 bg-primary/15 border border-border flex items-center justify-center font-sans font-bold text-sm text-primary">
                 {testimonial.initials}
               </div>
               <div>

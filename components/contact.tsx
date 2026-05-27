@@ -79,12 +79,12 @@ export function Contact() {
         <div className="text-xs font-semibold tracking-[0.2em] uppercase text-primary mb-4">
           Get In Touch
         </div>
-        <h2 className="font-serif text-4xl md:text-5xl font-extrabold tracking-tight mb-4 text-balance">
+        <h2 className="font-sans text-2xl md:text-3xl font-bold tracking-tight mb-4 text-balance">
           Ready to Get
           <br />
           Your Business Legal?
         </h2>
-        <p className="text-muted-foreground text-base max-w-lg font-light">
+        <p className="text-muted-foreground text-sm max-w-lg font-light">
           Reach out today and let&apos;s get started. We typically respond within 1 hour during business hours.
         </p>
       </div>
@@ -198,7 +198,7 @@ export function Contact() {
 
           <button
             type="submit"
-            className="w-full bg-primary text-primary-foreground font-serif font-bold text-base py-4 hover:bg-accent transition-colors"
+            className="w-full bg-primary text-primary-foreground font-sans font-semibold text-sm py-3.5 hover:bg-accent transition-colors"
           >
             Send Message →
           </button>

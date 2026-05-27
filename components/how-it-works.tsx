@@ -48,12 +48,12 @@ export function HowItWorks() {
         <div className="text-xs font-semibold tracking-[0.2em] uppercase text-primary mb-4">
           The Process
         </div>
-        <h2 className="font-serif text-4xl md:text-5xl font-extrabold tracking-tight mb-4 text-balance">
+        <h2 className="font-sans text-2xl md:text-3xl font-bold tracking-tight mb-4 text-balance">
           Done in Three
           <br />
           Simple Steps
         </h2>
-        <p className="text-muted-foreground text-base max-w-lg font-light">
+        <p className="text-muted-foreground text-sm max-w-lg font-light">
           {"We've simplified the entire compliance process into an easy, guided experience."}
         </p>
       </div>
@@ -64,10 +64,10 @@ export function HowItWorks() {
             key={step.number}
             className="relative p-8 border border-border bg-card transition-colors hover:border-primary"
           >
-            <div className="font-serif text-7xl font-extrabold text-primary/10 leading-none mb-4">
+            <div className="font-sans text-5xl font-bold text-primary/10 leading-none mb-4">
               {step.number}
             </div>
-            <h3 className="font-serif text-lg font-bold mb-3">
+            <h3 className="font-sans text-base font-semibold mb-3">
               {step.title}
             </h3>
             <p className="text-sm text-muted-foreground font-light leading-relaxed">

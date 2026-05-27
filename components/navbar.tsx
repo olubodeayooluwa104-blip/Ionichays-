@@ -9,7 +9,7 @@ export function Navbar() {
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-[5%] py-5 bg-background/85 backdrop-blur-sm border-b border-border">
-      <Link href="/" className="font-serif font-extrabold text-xl tracking-tight text-foreground">
+      <Link href="/" className="font-sans font-bold text-lg tracking-tight text-foreground">
         Oatify<span className="text-primary">media</span>
       </Link>
 
@@ -39,7 +39,7 @@ export function Navbar() {
 
       <Link
         href="#contact"
-        className="hidden md:inline-block bg-primary text-primary-foreground font-serif font-bold text-sm px-5 py-2.5 hover:bg-accent hover:-translate-y-0.5 transition-all"
+        className="hidden md:inline-block bg-primary text-primary-foreground font-sans font-semibold text-sm px-5 py-2.5 hover:bg-accent hover:-translate-y-0.5 transition-all"
       >
         Get Started
       </Link>
@@ -96,7 +96,7 @@ export function Navbar() {
             <li className="pt-2">
               <Link
                 href="#contact"
-                className="inline-block bg-primary text-primary-foreground font-serif font-bold text-sm px-5 py-2.5"
+                className="inline-block bg-primary text-primary-foreground font-sans font-semibold text-sm px-5 py-2.5"
                 onClick={() => setIsOpen(false)}
               >
                 Get Started
