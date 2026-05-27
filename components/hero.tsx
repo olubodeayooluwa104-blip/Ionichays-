@@ -2,7 +2,7 @@ import Link from "next/link"
 
 export function Hero() {
   return (
-    <section className="min-h-screen flex items-center px-[5%] pt-32 pb-20 relative overflow-hidden">
+    <section className="flex items-center px-[5%] pt-28 pb-16 relative overflow-hidden">
       {/* Background Effects */}
       <div className="absolute inset-0 z-0">
         <div
